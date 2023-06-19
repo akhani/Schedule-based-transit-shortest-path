@@ -1,0 +1,7 @@
+Value	domain	definition
+0.5	:{>0}	maximum walking distance (in miles) for access and egress. Note that the number cannot be greater than the threshold for generating links in ft_input_accessLinks.dat.
+0.1	:{>0}	maximum walking distance (in miles) for walking transfer. Note that the number cannot be greater than the threshold for generating links in ft_input_transfers.dat.
+1	:{0,1}	consider walking transfers in the path (0 for no and 1 for yes)
+30	:{>=0}	time window (in minutes) in which transit services at the origin (after PDT) and destination (before PAT) are considered. This is not equivalent to waiting time at the origin.
+5	:{>=0}	time window (in minutes) in which transfers are considered. 
+120	:{>0}	maximum trip duration (in minutes), to avoid cases of very long paths. 
