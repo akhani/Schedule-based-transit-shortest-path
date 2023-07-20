@@ -1,0 +1,11 @@
+cff-version: 1.0.1
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Khani"
+  given-names: "Alireza"
+  orcid: "https://orcid.org/0000-0002-3091-4415"
+title: "Schedule-based transit shortest path algorithm"
+version: 1.0.1
+doi: 10.5281/zenodo.1341312
+date-released: 2023-06-19
+url: "https://github.com/akhani/Schedule-based-transit-shortest-path"

@@ -22,8 +22,9 @@ along with this program. If not, see <http://www.gnu.org/licenses/>. '''
 
 import math, time, heapq, sys
 from datetime import datetime as dt 
-inputDataLocation = "examples/test network (Tong and Richardson 1988)/"
-#inputDataLocation = "examples/IowaCity/iowacityGTFS20220822_model/"
+inputDataLocation = "examples/toy network (Tong and Richardson 1988)/"
+inputDataLocation = "examples/IowaCity/iowacityGTFS20220822_model/"
+#inputDataLocation = "examples/TwinCities/"
 
 ################################################################################################
 class Zone:
@@ -636,6 +637,7 @@ logFile.write("%4s - Starting the assignment. \n" %(dt.fromtimestamp(time.time()
 logFile.write("--------------------------------------------------\n")
 sortConnectors()
 assignPassengers("optimal") ## for now, the parameter should be "optimal"
+logFile.write("--------------------------------------------------\n")
 logFile.write("%4s - Assignment completed. \n" %(dt.fromtimestamp(time.time())) )
 logFile.write("--------------------------------------------------\n")
 print ("------------------------------")
